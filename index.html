@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcería Deliciosa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dulcería Deliciosa</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>🍭 Los Mejores Dulces para Ti 🍫</h2>
+           
+            <img src="img/mermelada.jpg" alt="Variedad de dulces">
+            <p>Disfruta de los dulces más deliciosos y frescos de la ciudad.</p>
+            <p><strong>Veronica Alejandra Escobar Meza</strong></p>
+            <p>Venta de mermeladas caseras y conservas (durazno y cereza), galletas a pedido y donas.</p>
+            <img src="img/donas.jpg" alt="Variedad de dulces">
+        </section>
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <p><strong>Teléfono:</strong> 923678683</p>
+            <form id="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="mensaje-enviado"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
