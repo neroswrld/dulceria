@@ -1,0 +1,12 @@
+{
+  "name": "tienda-galletas-mama",
+  "version": "1.0.0",
+  "description": "Página web de galletas y mermeladas",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
